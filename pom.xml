@@ -65,7 +65,7 @@
               <resultsFolder>target/gatling/results</resultsFolder>
               <!-- <requestBodiesFolder>src/test/resources/request-bodies</requestBodiesFolder> -->
               <simulationsFolder>src/main/scala</simulationsFolder>
-              <simulationClass>com.ing.diba.msg.lasttests.GiroKontoUmsatzSimulation</simulationClass>
+              <simulationClass>de.codepitbull.gatling.fatjar.BasicSimulation</simulationClass>
             </configuration>
           </execution>
         </executions>
