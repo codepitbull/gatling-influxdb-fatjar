@@ -72,8 +72,8 @@
       </plugin>
       <plugin>
         <!-- Required because Scala-classes now need to be built by maven and not by Gatling -->
-        <groupId>org.scala-tools</groupId>
-        <artifactId>maven-scala-plugin</artifactId>
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
         <executions>
           <execution>
             <goals>
@@ -83,7 +83,6 @@
           </execution>
         </executions>
         <configuration>
-          <sourceDir>src/main/scala</sourceDir>
           <jvmArgs>
             <jvmArg>-Xms64m</jvmArg>
             <jvmArg>-Xmx1024m</jvmArg>
